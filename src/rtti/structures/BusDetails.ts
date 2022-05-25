@@ -1,4 +1,4 @@
-import { cleanRouteNumber, parseTime } from "../helpers";
+import { cleanRouteNumber, parseTime } from "../../helpers";
 import { Coordinates } from "../types/apiParams";
 import { RawBusDetails, RouteDirection } from "../types/apiResponses";
 
