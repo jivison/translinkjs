@@ -1,4 +1,4 @@
-import { cleanRouteNumber } from "../helpers";
+import { cleanRouteNumber } from "../../helpers";
 import { Coordinates } from "../types/apiParams";
 import { RawStopDetails } from "../types/apiResponses";
 

@@ -1,5 +1,5 @@
 import { stringify } from "query-string";
-import { joinPath } from "./helpers";
+import { joinPath } from "../helpers";
 import fetch from "node-fetch";
 import { isCoordinates } from "./types/apiParams";
 import { RTTIAPIError } from "./types/errors";

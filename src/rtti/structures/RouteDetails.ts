@@ -1,4 +1,4 @@
-import { cleanRouteNumber, uniquify } from "../helpers";
+import { cleanRouteNumber, uniquify } from "../../helpers";
 import { RawRouteDetails, RouteOperatingCompany } from "../types/apiResponses";
 import { RoutePattern } from "./RoutePattern";
 

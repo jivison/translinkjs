@@ -1,4 +1,5 @@
-import { parse } from "date-fns";
+import { fromUnixTime, parse } from "date-fns";
+import { RawLong } from "./gtfs/types/responses";
 
 export function joinPath(path1: string, path2: string): string {
   return (
@@ -17,6 +18,10 @@ export function parseDateTime(string: string): Date {
 
 export function parseTime(string: string): Date {
   return parse(string, "KK:mm:ss a", new Date());
+}
+
+export function parseDateFromLong(long?: RawLong): Date {
+  return fromUnixTime(long.low);
 }
 
 export function cleanRouteNumber(routeNumber: string): string {
