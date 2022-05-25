@@ -1,6 +1,6 @@
 {
   "name": "translinkjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -18,8 +18,8 @@
     "query-string": "^7.1.1"
   },
   "devDependencies": {
-    "typescript": "^4.7.2",
-    "@types/node-fetch": "^2.6.1"
+    "@types/node-fetch": "^2.6.1",
+    "typescript": "^4.7.2"
   },
   "files": [
     "lib/**/*"
