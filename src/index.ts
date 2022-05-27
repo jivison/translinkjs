@@ -13,3 +13,6 @@ export { TranslinkGTFS } from "./gtfs/gtfs";
 export * from "./gtfs/structures/Alert";
 export * from "./gtfs/structures/TripUpdate";
 export * from "./gtfs/structures/VehiclePosition";
+
+// Helpers
+export { cleanRouteNumber } from "./helpers";
