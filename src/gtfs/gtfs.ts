@@ -31,8 +31,6 @@ export class TranslinkGTFS {
     const feed =
       gtfsRealtimeBindings.transit_realtime.FeedMessage.decode(buffer);
 
-    console.log(feed.entity[0]);
-
     return feed.entity;
   }
 

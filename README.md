@@ -1,5 +1,7 @@
 # TranslinkJS
 
+A typed Javascript Translink RTTI and GTFS API wrapper
+
 ## Installation
 
 ```
@@ -31,9 +33,9 @@ const routes = await rtti.routesThroughStop(54877);
 To use the GTFS API:
 
 ```ts
-import { GTFS } from "translinkjs";
+import { TranslinkGTFS } from "translinkjs";
 
-const gtfs = new GTFS("API_KEY");
+const gtfs = new TranslinkGTFS("API_KEY");
 
 // There are three endpoints available through realtime GTFS:
 
