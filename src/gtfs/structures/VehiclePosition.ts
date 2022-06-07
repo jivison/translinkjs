@@ -23,5 +23,7 @@ export class GTFSVehiclePosition {
       latitude: response.vehicle.position.latitude,
       longitude: response.vehicle.position.longitude,
     };
+
+    this.vehicle = new GTFSVehicle(response.vehicle.vehicle);
   }
 }
